@@ -1,0 +1,91 @@
+.register-container main form .row{
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-container main form select{
+    color:#333;
+    border: 1px solid #333;
+    background-color: #FFF;
+}
+
+.register-container main form input {
+    width: 480px;
+    padding: 0 24px;
+}
+
+.register-container main form textarea {
+    width: 480px;
+    height: 125px;
+    min-height: 40px;
+    resize: vertical;
+    padding: 16px 24px;
+    line-height: 24px;
+}
+
+.register-container main form .upload{
+    width: 480px;
+    color:#333;
+    border: 1px solid #333;
+    border-radius: 3px;
+    background-color: #FFFFFF;  
+    position:relative;
+    display: flex;
+    justify-content: right;
+}
+.register-container main form .upload input{
+    width:100%;
+    border:none;
+    text-align:left;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+.register-container main form .upload input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.register-container main form .upload span{
+    width: 120px;
+    height: 27px;
+    padding-top: 5px;
+    border-radius: 3px;
+    border-left: 1px solid #333;
+    text-align:center;
+    background-color: #96d3b4;
+}
+
+.register-container main form .related_posts_edit{
+    padding-top: 16px;
+}
+
+.register-container main form .related_posts_edit button{
+    margin-right: 10px;
+    border: none;
+}
+
+.register-container .content .row .status-container {
+    width: 480px;
+}
+
+.register-container .content .row:last-child {
+    display: flex;
+    justify-content: right;
+}
+
+.register-container main form .data-results{
+    background-color: #FFF;
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 3px;
+}
+
+.register-container main form .data-results .data-item{
+    padding: 10px 24px;
+    gap: 13px;
+}
+
+.register-container main form .data-results .data-item:hover{
+    background-color: #F9F9F9;
+}

@@ -1,0 +1,53 @@
+.home-container header .logo button{
+    border: none;
+    cursor: pointer;
+}
+
+.home-container .title .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-container .content .search input{
+    padding: 0 24px;
+}
+
+.home-container .content .row:first-child,
+.home-container .content .row:last-child {
+    display: flex;
+    justify-content: right;
+}
+
+.home-container .content .row .search button {
+    margin-left: 10px;
+}
+
+.home-container .content .row table {
+    width: 100%;
+    text-align: center;
+    border: 1px #333 solid;
+    border-collapse: collapse;
+}
+
+.home-container .content .row table thead {
+    background-color: #ccc;
+    height: 30px;
+}
+
+.home-container .content .row table tbody tr {
+    height: 55px;
+}
+
+.home-container .content .row table tbody tr td a:first-of-type {
+    margin-right: 15px;
+}
+
+.home-container .content .row table tbody tr td button{
+    border: none;
+    cursor: pointer;
+}
+
+.home-container .content .row .paginator button{
+    border: none;
+    cursor: pointer;
+}
