@@ -21,8 +21,10 @@ Instalação
 - Criar um banco de dados no mariaDb com o nome posts_control 
 - Alterar as permisões no arquivo backend/knexfile.js
 - Acessar apartir do terminal a pasta backend e executar npx knex migrate:latest
+- Criar usuario na tabela users para funcionar o autocompleate
 - Digitar o comando npm start para servir a api
 - Acessar o terminal apartir da pasta frontend e digitar npm start para iniciar o react
+
 
 ---
 
