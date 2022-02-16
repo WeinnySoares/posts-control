@@ -19,12 +19,15 @@ Frontend
 
 Listagem
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53096fea-ed33-4695-829c-3c1d02ff64b8/Untitled.png)
+![image](https://user-images.githubusercontent.com/28165202/154173655-1c191387-fef6-420e-bc19-de5a90f64f54.png)
+
 
 Edição / Visualização
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d69dd0a-9a47-4399-8393-cec8d1c525c9/Untitled.png)
+![image](https://user-images.githubusercontent.com/28165202/154173560-1894075f-11d3-4083-9e3e-50c1933898ea.png)
+
 
 Cadastro
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0909d1e1-794e-4d6c-a660-0d23bc10b555/Untitled.png)
+![image](https://user-images.githubusercontent.com/28165202/154173462-2322f543-5bd5-4ea2-9f46-9661b094372c.png)
+
