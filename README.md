@@ -15,6 +15,17 @@ Frontend
 
 - React
 
+---
+Instalação 
+- para instalar clonar esse reposítório
+- criar um banco de dados no mariaDb com o nome posts_control 
+- alterar as permisões no arquivo backend/knexfile.js
+- acessar apartir do terminal a pasta backend e executar npx knex migrate:latest
+- digitar o comando npm start para servir a api
+- acessar o terminal apartir da pasta frontend e digitar npm start para iniciar o react
+
+---
+
 **screenshots**
 
 Listagem
