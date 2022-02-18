@@ -62,7 +62,7 @@ module.exports = {
             name,
             description,
             cover_image,
-            status,
+            status: Boolean(status),
             user_id,
         });
         

@@ -2,10 +2,14 @@ const valid = require('validator');
 
 module.exports = {
     index(req,resp,next){
-        let {page} = req.query;
+        let {page,id} = req.query;
        
         if(page && !valid.isInt(page)){        
             return resp.json('{"data":"null",erro:"true","msg":"Pagina invalida!"}');
+        } 
+        
+        if(id && !valid.isInt(id)){        
+            return resp.json('{"data":"null",erro:"true","msg":"Post invalida!"}');
         }
 
         next();
@@ -39,6 +43,10 @@ module.exports = {
         next();
     },
     alter(req,resp,next){  
+        //return resp.json('{"data":"null",erro:"true","msg":"Favor preecher o campo");
+        next();
+    },
+    search(req,resp,next){  
         //return resp.json('{"data":"null",erro:"true","msg":"Favor preecher o campo");
         next();
     },
